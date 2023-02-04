@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Bai2 {
     static int a, b;
-    public static final Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.print("Nhập số nguyên a: ");

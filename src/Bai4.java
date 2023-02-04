@@ -1,12 +1,10 @@
-import java.util.Scanner;
-
 public class Bai4 {
     static int soDien, tienDien;
-    public static final Scanner sc = new Scanner(System.in);
+    static SharedMethods sm = new SharedMethods();
 
     public static void main(String[] args) {
-        System.out.print("Nhập vào số điện: ");
-        soDien = sc.nextInt();
+        soDien = sm.inputInt("số điện");
+
         if (soDien <= 50) {
             tienDien = soDien * 5000;
         } else {

@@ -1,27 +1,9 @@
-import java.util.Objects;
-import java.util.Scanner;
-
 public class Bai5 {
     static int choice, n;
     static boolean hasValue = false;
-    public static final Scanner sc = new Scanner(System.in);
-    public static int inputInt(String varName, String arguments) {
-        int i;
-        System.out.print("Nhập " + varName + ": ");
-        i = sc.nextInt();
+    static SharedMethods sm = new SharedMethods();
 
-        if (Objects.equals(arguments, "positive") && i <= 0) {
-            System.out.println(varName + " > 0 ! Nhập lại " + varName + ".");
-            i = inputInt(varName, arguments);
-        }
-        return i;
-    }
-
-    public static int inputInt(String varName) {
-        return inputInt(varName, "");
-    }
-
-    public static float sum1(int n) {
+    static float sum1(int n) {
         float res = 0;
         for (int i = 1; i <= n; i++) {
             res += 1.0 / i;
@@ -29,7 +11,7 @@ public class Bai5 {
         return res;
     }
 
-    public static float sum2(int n) {
+    static float sum2(int n) {
         float res = 0;
         int factorial = 1;
         for (int i = 1; i <= n; i++) {
@@ -40,10 +22,10 @@ public class Bai5 {
     }
 
     public static void inputChoice() {
-        choice = inputInt("lua chon");
+        choice = sm.inputInt("lua chon");
         switch (choice) {
             case 1: {
-                n = inputInt("n", "positive");
+                n = sm.inputInt("n", "positive");
                 hasValue = true;
                 inputChoice();
                 break;

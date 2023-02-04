@@ -1,60 +1,13 @@
-import java.util.Objects;
-import java.util.Scanner;
-
 public class Bai6 {
     static int choice, n;
     static boolean hasValue = false;
-    public static final Scanner sc = new Scanner(System.in);
-    public static int inputInt(String varName, String arguments) {
-        int i;
-        System.out.print("Nhập " + varName + ": ");
-        i = sc.nextInt();
-
-        if (Objects.equals(arguments, "positive") && i <= 0) {
-            System.out.println(varName + " > 0 ! Nhập lại " + varName + ".");
-            i = inputInt(varName, arguments);
-        }
-        return i;
-    }
-
-    public static int inputInt(String varName) {
-        return inputInt(varName, "");
-    }
-
-    public static int sum(int n) {
-        int res = 0;
-        for (int i = 1; i <= n; i++) {
-            res += i;
-        }
-        return res;
-    }
-
-    public static boolean checkPrimeNumber(int n) {
-        boolean res = true;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                res = false;
-                break;
-            }
-        }
-        return res;
-    }
-
-    public static boolean checkPerfectNumber(int n) {
-        int sum = 0;
-        for (int i = 1; i <= n / 2; i++) {
-            if (n % i == 0) {
-                sum += i;
-            }
-        }
-        return sum == n;
-    }
+    static SharedMethods sm = new SharedMethods();
 
     public static void inputChoice() {
-        choice = inputInt("lựa chọn");
+        choice = sm.inputInt("lựa chọn");
         switch (choice) {
             case 1: {
-                n = inputInt("n", "positive");
+                n = sm.inputInt("n", "positive");
                 hasValue = true;
                 inputChoice();
                 break;
@@ -65,7 +18,7 @@ public class Bai6 {
                     inputChoice();
                     break;
                 }
-                System.out.println("Tổng: 1 + ... + " + n + " = " + sum(n));
+                System.out.println("Tổng: 1 + ... + " + n + " = " + sm.sumOfFirstNaturalNumbers(n));
                 inputChoice();
                 break;
             }
@@ -75,7 +28,7 @@ public class Bai6 {
                     inputChoice();
                     break;
                 }
-                if (checkPrimeNumber(n)) {
+                if (sm.checkPrimeNumber(n)) {
                     System.out.println("n là số nguyên tố");
                 } else {
                     System.out.println("n không là số nguyên tố");
@@ -89,7 +42,7 @@ public class Bai6 {
                     inputChoice();
                     break;
                 }
-                if (checkPerfectNumber(n)) {
+                if (sm.checkPerfectNumber(n)) {
                     System.out.println("n là số hoàn hảo");
                 } else {
                     System.out.println("n không là số hoàn hảo");
