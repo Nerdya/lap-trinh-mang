@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Bai 1-6">
+      <change afterPath="$PROJECT_DIR$/src/Bai10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai19.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Bai7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bai9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675469559656</updated>
       <workItem from="1675469560751" duration="8443000" />
-      <workItem from="1675507053479" duration="5361000" />
+      <workItem from="1675507053479" duration="10316000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -79,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675511131236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bai 1-6">
+      <created>1675512499431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675512499431</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
