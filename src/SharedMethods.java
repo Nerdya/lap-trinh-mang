@@ -113,7 +113,7 @@ public class SharedMethods {
     }
 
     ArrayList<Integer> findNumberInArr(int findNum, int[] arr) {
-        ArrayList<Integer> indexes = new ArrayList<Integer>();
+        ArrayList<Integer> indexes = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (findNum == arr[i]) {
                  indexes.add(i);

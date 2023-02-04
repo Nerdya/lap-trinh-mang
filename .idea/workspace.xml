@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Bai 1-6">
-      <change afterPath="$PROJECT_DIR$/src/Bai10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bai9.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Bai 7-19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
     </list>
@@ -75,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675469559656</updated>
       <workItem from="1675469560751" duration="8443000" />
-      <workItem from="1675507053479" duration="10316000" />
+      <workItem from="1675507053479" duration="10716000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -98,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675512499431</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bai 7-19">
+      <created>1675517824670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675517824670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +103,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -118,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Bai 1-6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bai 1-6" />
+    <MESSAGE value="Bai 7-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bai 7-19" />
   </component>
 </project>
