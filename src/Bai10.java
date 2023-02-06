@@ -17,7 +17,7 @@ public class Bai10 {
     }
 
     public static void main(String[] args) {
-        n = sm.inputInt("n");
+        n = sm.inputInt("n", "positive");
         arr = sm.inputIntArr(n, "B");
         Arrays.sort(arr);
         System.out.println("Mảng B:");

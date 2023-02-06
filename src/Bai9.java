@@ -8,7 +8,7 @@ public class Bai9 {
     static SharedMethods sm = new SharedMethods();
 
     public static void main(String[] args) {
-        n = sm.inputInt("n");
+        n = sm.inputInt("n", "positive");
         arr = sm.inputIntArr(n, "A");
         findNum = sm.inputInt("số cần tìm trong mảng");
         indexes = sm.findNumberInArr(findNum, arr);
