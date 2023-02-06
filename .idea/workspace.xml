@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Bai 7-19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src",
+    "last_opened_file_path": "D:/Dia/Study/UNETI/Java/lap-trinh-mang",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +55,20 @@
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Bai10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai10" />
+      <module name="lap-trinh-mang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bai10" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +79,7 @@
       <updated>1675469559656</updated>
       <workItem from="1675469560751" duration="8443000" />
       <workItem from="1675507053479" duration="10716000" />
+      <workItem from="1675676657975" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>

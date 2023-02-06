@@ -99,7 +99,7 @@ public class SharedMethods {
         return res;
     }
 
-    int[] inputArrOfInt(int size, String arrName, String validator) {
+    int[] inputIntArr(int size, String arrName, String validator) {
         int[] arr = new int[size];
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < size; i++) {
@@ -108,8 +108,8 @@ public class SharedMethods {
         return arr;
     }
 
-    int[] inputArrOfInt(int size, String varName) {
-        return inputArrOfInt(size, varName, "");
+    int[] inputIntArr(int size, String varName) {
+        return inputIntArr(size, varName, "");
     }
 
     ArrayList<Integer> findNumberInArr(int findNum, int[] arr) {
@@ -120,5 +120,12 @@ public class SharedMethods {
             }
         }
         return indexes;
+    }
+
+    void printIntArr(int[] arr) {
+        for (int e : arr) {
+            System.out.print(e + " ");
+        }
+        System.out.println();
     }
 }

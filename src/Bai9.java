@@ -9,7 +9,7 @@ public class Bai9 {
 
     public static void main(String[] args) {
         n = sm.inputInt("n");
-        arr = sm.inputArrOfInt(n, "A");
+        arr = sm.inputIntArr(n, "A");
         findNum = sm.inputInt("số cần tìm trong mảng");
         indexes = sm.findNumberInArr(findNum, arr);
         if (!indexes.isEmpty()) {
