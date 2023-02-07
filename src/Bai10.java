@@ -18,10 +18,10 @@ public class Bai10 {
 
     public static void main(String[] args) {
         n = sm.inputInt("n", "positive");
-        arr = sm.inputIntArr(n, "B");
+        arr = sm.inputIntArray(n, "B");
         Arrays.sort(arr);
         System.out.println("Mảng B:");
-        sm.printIntArr(arr);
+        sm.printIntArray(arr);
         System.out.println("Phần tử có giá trị nhỏ nhất: " + arr[0]);
         System.out.printf("Trung bình cộng các phần tử chia hết cho 3: %.2f", getAvgOfNumbersDividedBy3(arr));
     }

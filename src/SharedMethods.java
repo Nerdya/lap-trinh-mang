@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class SharedMethods {
@@ -99,20 +101,16 @@ public class SharedMethods {
         return res;
     }
 
-    int[] inputIntArr(int size, String arrName, String validator) {
+    int[] inputIntArray(int size, String arrName) {
         int[] arr = new int[size];
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < size; i++) {
-            arr[i] = inputIntArrElement(i, arrName, validator);
+            arr[i] = inputIntArrElement(i, arrName, "");
         }
         return arr;
     }
 
-    int[] inputIntArr(int size, String varName) {
-        return inputIntArr(size, varName, "");
-    }
-
-    ArrayList<Integer> findNumberInArr(int findNum, int[] arr) {
+    ArrayList<Integer> getIndexesOfFindNumberInIntArray(int findNum, int[] arr) {
         ArrayList<Integer> indexes = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (findNum == arr[i]) {
@@ -122,10 +120,29 @@ public class SharedMethods {
         return indexes;
     }
 
-    void printIntArr(int[] arr) {
+    void printIntArray(int[] arr) {
         for (int e : arr) {
             System.out.print(e + " ");
         }
+        System.out.println();
+    }
+
+    ArrayList<Integer> inputIntArrayList(int size, String arrName) {
+        ArrayList<Integer> arrList = new ArrayList<>();
+        System.out.println("Nhập các phần tử mảng " + arrName + ":");
+        for (int i = 0; i < size; i++) {
+            int element = inputIntArrElement(i, arrName, "");
+            arrList.add(element);
+        }
+        return arrList;
+    }
+
+    void deleteNumberInIntArrayList(int deleteNum, ArrayList<Integer> arrList) {
+        arrList.removeAll(Collections.singleton(deleteNum));
+    }
+
+    void printIntArrayList(ArrayList<Integer> arrList) {
+        arrList.forEach(element -> System.out.print(element + " "));
         System.out.println();
     }
 }

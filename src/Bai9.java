@@ -9,9 +9,9 @@ public class Bai9 {
 
     public static void main(String[] args) {
         n = sm.inputInt("n", "positive");
-        arr = sm.inputIntArr(n, "A");
+        arr = sm.inputIntArray(n, "A");
         findNum = sm.inputInt("số cần tìm trong mảng");
-        indexes = sm.findNumberInArr(findNum, arr);
+        indexes = sm.getIndexesOfFindNumberInIntArray(findNum, arr);
         if (!indexes.isEmpty()) {
             String indexesStr = indexes.stream().map(Object::toString).collect(Collectors.joining(", "));
             System.out.println("Số cần tìm ở vị trí thứ " + indexesStr + " trong mảng");

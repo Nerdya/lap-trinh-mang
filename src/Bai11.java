@@ -1,11 +1,15 @@
+import java.util.ArrayList;
+
 public class Bai11 {
     static int n, x;
-    static int[] arr;
+    static ArrayList<Integer> arrList;
     static SharedMethods sm = new SharedMethods();
     public static void main(String[] args) {
         n = sm.inputInt("n", "positive");
-        arr = sm.inputIntArr(n, "C");
-        x = sm.inputInt("x");
-
+        arrList = sm.inputIntArrayList(n, "C");
+        x = sm.inputInt("phần tử cần xóa x");
+        sm.deleteNumberInIntArrayList(x, arrList);
+        System.out.println("Danh sách phần tử trong mảng C sau khi xóa:");
+        sm.printIntArrayList(arrList);
     }
 }
