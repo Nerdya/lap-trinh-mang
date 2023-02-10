@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -6,24 +5,30 @@ import java.util.Scanner;
 public class SharedMethods {
     Scanner sc = new Scanner(System.in);
 
-    String getIntException(String varName, String validator, int num) {
+    String getIntException(String varName, String validator, int value) {
         String exception = "";
         switch (validator) {
             case "notZero": {
-                if (num == 0) {
+                if (value == 0) {
                     exception = varName + " != 0";
                 }
                 break;
             }
             case "positive": {
-                if (num <= 0) {
+                if (value <= 0) {
                     exception = varName + " > 0";
                 }
                 break;
             }
             case "whole": {
-                if (num < 0) {
+                if (value < 0) {
                     exception = varName + " >= 0";
+                }
+                break;
+            }
+            case "1..99": {
+                if (value < 1 || value > 99) {
+                    exception = "0 < " + varName + " < 100";
                 }
                 break;
             }
@@ -93,30 +98,44 @@ public class SharedMethods {
 
     int inputIntArrElement(int index, String arrName, String validator) {
         int res;
-        System.out.print("\t" + arrName + "[" + index + "]: ");
+        String elementName = arrName + "[" + index + "]";
+        System.out.print(elementName + ": ");
         res = sc.nextInt();
-        String exception = getIntException(arrName, validator, res);
+        String exception = getIntException(elementName, validator, res);
 
         if (!exception.isEmpty()) {
-            System.out.println(exception + "! Nhập lại " + arrName + ".");
+            System.out.println(exception + "! Nhập lại " + elementName + ".");
             res = inputIntArrElement(index, arrName, validator);
         }
         return res;
     }
 
-    int[] inputIntArray(int size, String arrName) {
+    int[] inputIntArray(int size, String arrName, String validator) {
         int[] arr = new int[size];
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < size; i++) {
-            arr[i] = inputIntArrElement(i, arrName, "");
+            arr[i] = inputIntArrElement(i, arrName, validator);
         }
         return arr;
     }
 
-    ArrayList<Integer> getIndexesOfFindNumberInIntArray(int findNum, int[] arr) {
+    int[] inputIntArray(int size, String arrName) {
+        return inputIntArray(size, arrName, "");
+    }
+
+    int[] inputIntArrayUntilNthElement(int size, String arrName, String validator, int n) {
+        int[] arr = new int[size];
+        System.out.println("Nhập các phần tử mảng " + arrName + ":");
+        for (int i = 0; i < n; i++) {
+            arr[i] = inputIntArrElement(i, arrName, validator);
+        }
+        return arr;
+    }
+
+    ArrayList<Integer> getIndexesOfFindNumberInIntArray(int[] arr, int findValue) {
         ArrayList<Integer> indexes = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
-            if (findNum == arr[i]) {
+            if (findValue == arr[i]) {
                  indexes.add(i);
             }
         }
@@ -126,6 +145,13 @@ public class SharedMethods {
     void printIntArray(int[] arr) {
         for (int e : arr) {
             System.out.print(e + " ");
+        }
+        System.out.println();
+    }
+
+    void printIntArrayUntilNElement(int[] arr, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
@@ -140,12 +166,60 @@ public class SharedMethods {
         return arrList;
     }
 
-    void deleteNumberInIntArrayList(int deleteNum, ArrayList<Integer> arrList) {
-        arrList.removeAll(Collections.singleton(deleteNum));
+    void deleteNumberInIntArrayList(ArrayList<Integer> arrList, int deleteValue) {
+        arrList.removeAll(Collections.singleton(deleteValue));
     }
 
     void printIntArrayList(ArrayList<Integer> arrList) {
         arrList.forEach(element -> System.out.print(element + " "));
         System.out.println();
+    }
+
+    void optimizedInsertionSort(int[] arr, SortOrder order) {
+        int n = arr.length;
+
+        // Find the minimum element
+        int min = arr[0];
+        int index = 0;
+        for (int i = 1; i < n; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+                index = i;
+            }
+        }
+
+        // Place the minimum element at the first position
+        int temp = arr[0];
+        arr[0] = arr[index];
+        arr[index] = temp;
+
+        // Insertion sort with sentinel values and stop the loop early optimization
+        for (int i = 1; i < n; i++) {
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && (order == SortOrder.ASCENDING ? arr[j] > key : arr[j] < key)) {
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+            if (j != i - 1) {
+                arr[j + 1] = key;
+            }
+        }
+    }
+
+    void optimizedInsertionSort(int[] arr) {
+        optimizedInsertionSort(arr, SortOrder.ASCENDING);
+    }
+
+    void insertIntoSortedArray(int[] arr, int value) {
+        int i;
+        for (i = arr.length - 2; i >= 0; i--) {
+            if (arr[i] < value) {
+                arr[i + 1] = arr[i];
+            } else {
+                break;
+            }
+        }
+        arr[i + 1] = value;
     }
 }

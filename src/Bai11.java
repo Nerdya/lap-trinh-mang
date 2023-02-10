@@ -8,7 +8,7 @@ public class Bai11 {
         n = sm.inputInt("n", "positive");
         arrList = sm.inputIntArrayList(n, "C");
         x = sm.inputInt("phần tử cần xóa x");
-        sm.deleteNumberInIntArrayList(x, arrList);
+        sm.deleteNumberInIntArrayList(arrList, x);
         System.out.println("Danh sách phần tử trong mảng C sau khi xóa:");
         sm.printIntArrayList(arrList);
     }

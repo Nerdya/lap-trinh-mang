@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Bai 7-19">
+      <change afterPath="$PROJECT_DIR$/src/SimpleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bai13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bai14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bai9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +59,7 @@
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bai14">
-    <configuration name="Bai10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai10" />
-      <module name="lap-trinh-mang" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Bai15">
     <configuration name="Bai11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai11" />
       <module name="lap-trinh-mang" />
@@ -92,13 +88,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Bai15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai15" />
+      <module name="lap-trinh-mang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai15" />
         <item itemvalue="Application.Bai14" />
         <item itemvalue="Application.Bai13" />
         <item itemvalue="Application.Bai12" />
         <item itemvalue="Application.Bai11" />
-        <item itemvalue="Application.Bai10" />
       </list>
     </recent_temporary>
   </component>
