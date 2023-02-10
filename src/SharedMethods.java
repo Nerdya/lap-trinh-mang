@@ -57,6 +57,9 @@ public class SharedMethods {
 
     boolean checkPrimeNumber(int n) {
         boolean res = true;
+        if (n < 2) {
+            return false;
+        }
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 res = false;
