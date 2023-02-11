@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Lab2">
-      <change afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab1/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab2/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab2/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab2/StudentMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/StudentMark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SimpleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SimpleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SortOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SortOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +67,13 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lab2toi.Bai1">
-    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab2.Bai1" />
+  <component name="RunManager" selected="Application.Bai5">
+    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai2" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab2.*" />
+          <option name="PATTERN" value="com.lab2toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab1.Bai17" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai3" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.lab2toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab1.Bai18" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai4" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.lab2toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab1.Bai19" />
+    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai5" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.lab2toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,8 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai5" />
+        <item itemvalue="Application.Bai4" />
+        <item itemvalue="Application.Bai3" />
+        <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.com.lab2toi.Bai1" />
-        <item itemvalue="Application.Bai1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676079922304</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lab2">
+      <created>1676116685343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676116685343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

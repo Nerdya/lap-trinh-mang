@@ -21,7 +21,7 @@ public class Bai14 {
 
     static void printPrimeFibonacciSmallerThan(int n, int[] memo) {
         for (int e : memo) {
-            if (sm.checkPrimeNumber(e) && e < n) {
+            if (sm.isPrimeNumber(e) && e < n) {
                 System.out.print(e + " ");
             }
         }

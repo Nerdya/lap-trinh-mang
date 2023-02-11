@@ -9,7 +9,7 @@ public class Bai12 {
 
     static void printPrimeNumberInIntArray(int[] arr) {
         for (int e : arr) {
-            if (sm.checkPrimeNumber((e))) {
+            if (sm.isPrimeNumber((e))) {
                 System.out.print(e + " ");
             }
         }
@@ -18,7 +18,7 @@ public class Bai12 {
 
     static void printPerfectNumberInIntArray(int[] arr) {
         for (int e : arr) {
-            if (sm.checkPerfectNumber((e))) {
+            if (sm.isPerfectNumber((e))) {
                 System.out.print(e + " ");
             }
         }

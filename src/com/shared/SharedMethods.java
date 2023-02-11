@@ -62,7 +62,7 @@ public class SharedMethods {
         return res;
     }
 
-    public boolean checkPrimeNumber(int n) {
+    public boolean isPrimeNumber(int n) {
         boolean res = true;
         if (n < 2) {
             return false;
@@ -76,7 +76,7 @@ public class SharedMethods {
         return res;
     }
 
-    public boolean checkPerfectNumber(int n) {
+    public boolean isPerfectNumber(int n) {
         int sum = 0;
         for (int i = 1; i <= n / 2; i++) {
             if (n % i == 0) {

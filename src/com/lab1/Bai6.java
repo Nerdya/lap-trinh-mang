@@ -32,7 +32,7 @@ public class Bai6 {
                     inputChoice();
                     break;
                 }
-                if (sm.checkPrimeNumber(n)) {
+                if (sm.isPrimeNumber(n)) {
                     System.out.println("n là số nguyên tố");
                 } else {
                     System.out.println("n không là số nguyên tố");
@@ -46,7 +46,7 @@ public class Bai6 {
                     inputChoice();
                     break;
                 }
-                if (sm.checkPerfectNumber(n)) {
+                if (sm.isPerfectNumber(n)) {
                     System.out.println("n là số hoàn hảo");
                 } else {
                     System.out.println("n không là số hoàn hảo");
