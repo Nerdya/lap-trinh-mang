@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -221,5 +223,47 @@ public class SharedMethods {
             }
         }
         arr[i + 1] = value;
+    }
+
+    String inputString(String varName) {
+        String input;
+        System.out.print("Nhập " + varName + ": ");
+        input = sc.nextLine();
+        return input;
+    }
+
+    String normalizeString(String input) {
+        input = input.trim().toLowerCase();
+        String[] words = input.split("\\s+");
+        StringBuilder normalized = new StringBuilder();
+        for (String word : words) {
+            normalized.append(Character.toUpperCase(word.charAt(0)))
+                .append(word.substring(1)).append(" ");
+        }
+        return normalized.toString().trim();
+    }
+
+    int inputIntArr2DElement(int index, String arrName, String validator) {
+        int res;
+        String elementName = arrName + "[" + index + "]";
+        System.out.print(elementName + ": ");
+        res = sc.nextInt();
+        String exception = getIntException(elementName, validator, res);
+
+        if (!exception.isEmpty()) {
+            System.out.println(exception + "! Nhập lại " + elementName + ".");
+            res = inputIntArrElement(index, arrName, validator);
+        }
+        return res;
+    }
+
+    int[][] inputIntArray2D(int rows, int columns, String arrName, String validator) {
+        int[][] arr2D = new int[rows][columns];
+        System.out.println("Nhập mảng 2 chiều " + arrName + ":");
+        return arr2D;
+    }
+
+    int[][] inputIntArray2D(int rows, int columns, String arrName) {
+        return inputIntArray2D(rows, columns, arrName, "");
     }
 }

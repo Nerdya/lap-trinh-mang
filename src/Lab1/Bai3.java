@@ -1,3 +1,5 @@
+package Lab1;
+
 public class Bai3 {
     static int a, b, c, delta;
     static SharedMethods sm = new SharedMethods();

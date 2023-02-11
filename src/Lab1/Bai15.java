@@ -1,3 +1,5 @@
+package Lab1;
+
 import java.util.Arrays;
 
 public class Bai15 {
@@ -31,7 +33,7 @@ public class Bai15 {
         sm.optimizedInsertionSort(arr, SortOrder.DESCENDING);
         System.out.println("Mảng A sau khi sắp xếp theo thứ tự giảm dần: ");
         sm.printIntArrayUntilNElement(arr, n);
-        x = sm.inputInt("x để chèn vào mảng A");
+        x = sm.inputInt("x");
         sm.insertIntoSortedArray(arr, x);
         System.out.println("Mảng A sau khi chèn x:");
         sm.printIntArray(arr);

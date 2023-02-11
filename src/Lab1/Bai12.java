@@ -1,3 +1,5 @@
+package Lab1;
+
 public class Bai12 {
     static int n;
     static int[] arr;

@@ -1,3 +1,5 @@
+package Lab1;
+
 public class Bai8 {
     static int n;
     static SharedMethods sm = new SharedMethods();
