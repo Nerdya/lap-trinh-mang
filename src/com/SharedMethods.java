@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class SharedMethods {
-    Scanner sc = new Scanner(System.in);
+    public Scanner sc = new Scanner(System.in);
 
     public String getIntException(String varName, String validator, int value) {
         String exception = "";
