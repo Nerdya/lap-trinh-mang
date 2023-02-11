@@ -1,4 +1,4 @@
-package com;
+package com.shared;
 
 public class SimpleDTO {
     public int index;

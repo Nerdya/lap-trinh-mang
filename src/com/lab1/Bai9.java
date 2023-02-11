@@ -1,6 +1,6 @@
-package com.Lab1;
+package com.lab1;
 
-import com.SharedMethods;
+import com.shared.SharedMethods;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 

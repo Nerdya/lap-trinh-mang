@@ -1,6 +1,6 @@
-package com.Lab2;
+package com.lab2;
 
-import com.SharedMethods;
+import com.shared.SharedMethods;
 
 public class StudentMark {
     private int rollNumber;

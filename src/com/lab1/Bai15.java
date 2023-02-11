@@ -1,9 +1,9 @@
-package com.Lab1;
+package com.lab1;
 
 import java.util.Arrays;
-import com.SharedMethods;
-import com.SimpleDTO;
-import com.SortOrder;
+import com.shared.SharedMethods;
+import com.shared.SimpleDTO;
+import com.shared.SortOrder;
 
 public class Bai15 {
     static int n, x;

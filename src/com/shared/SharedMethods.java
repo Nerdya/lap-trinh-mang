@@ -1,4 +1,4 @@
-package com;
+package com.shared;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -273,7 +273,6 @@ public class SharedMethods {
     }
 
     public void printIntArray2D(int[][] arr2D) {
-        int rows = arr2D.length;
         int columns = arr2D[0].length;
         for (int[] ints : arr2D) {
             for (int j = 0; j < columns; j++) {
@@ -329,5 +328,12 @@ public class SharedMethods {
             res = inputFloat(varName, validator);
         }
         return res;
+    }
+
+    public char inputChar(String varName) {
+        char input;
+        System.out.print("Nhập " + varName + ": ");
+        input = sc.nextLine().charAt(0);
+        return input;
     }
 }

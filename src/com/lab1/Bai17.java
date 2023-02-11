@@ -1,6 +1,6 @@
-package com.Lab1;
+package com.lab1;
 
-import com.SharedMethods;
+import com.shared.SharedMethods;
 
 public class Bai17 {
     static int rows, columns;
