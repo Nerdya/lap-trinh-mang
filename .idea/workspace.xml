@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Lab2">
-      <change afterPath="$PROJECT_DIR$/src/com/Lab2/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab2/StudentMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Lab2/StudentMark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SharedMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Lab2/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Lab2/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676079542674</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab2">
+      <created>1676079922304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676079922304</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
