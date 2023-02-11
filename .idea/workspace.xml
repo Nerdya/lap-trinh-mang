@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Lab1">
-      <change afterPath="$PROJECT_DIR$/src/Lab2/StudentMark.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/SimpleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/SortOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Lab2/StudentMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Lab2/StudentMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SharedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,35 +58,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Lab1.Bai19">
-    <configuration name="Lab1.Bai15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Bai15" />
+    <configuration name="Bai15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab1.Bai15" />
       <module name="lap-trinh-mang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1.Bai16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Bai16" />
+    <configuration name="Bai16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab1.Bai16" />
       <module name="lap-trinh-mang" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1.Bai17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Bai17" />
-      <module name="lap-trinh-mang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab1.Bai18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Bai18" />
+    <configuration name="Bai17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab1.Bai17" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1.Bai19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab1.Bai19" />
+    <configuration name="Bai18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab1.Bai18" />
+      <module name="lap-trinh-mang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bai19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab1.Bai19" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676077562800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactor">
+      <created>1676078405179</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676078405179</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +232,7 @@
     <MESSAGE value="Bai 1-6" />
     <MESSAGE value="Bai 7-19" />
     <MESSAGE value="Lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
 </project>

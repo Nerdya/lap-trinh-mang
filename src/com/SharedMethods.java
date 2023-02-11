@@ -275,9 +275,9 @@ public class SharedMethods {
     public void printIntArray2D(int[][] arr2D) {
         int rows = arr2D.length;
         int columns = arr2D[0].length;
-        for (int i = 0; i < rows; i++) {
+        for (int[] ints : arr2D) {
             for (int j = 0; j < columns; j++) {
-                System.out.printf("%8d", arr2D[i][j]);
+                System.out.printf("%8d", ints[j]);
             }
             System.out.println();
         }
@@ -291,6 +291,43 @@ public class SharedMethods {
             count++;
         }
         return (float) sum / count;
+    }
 
+    public String getFloatException(String varName, String validator, float value) {
+        String exception = "";
+        switch (validator) {
+            case "positive": {
+                if (value <= 0) {
+                    exception = varName + " > 0";
+                }
+                break;
+            }
+            case "whole": {
+                if (value < 0) {
+                    exception = varName + " >= 0";
+                }
+                break;
+            }
+            case "0..10": {
+                if (value < 0 || value > 10) {
+                    exception = "0 <= " + varName + " <= 10";
+                }
+                break;
+            }
+        }
+        return exception;
+    }
+
+    public float inputFloat(String varName, String validator) {
+        float res;
+        System.out.print("Nhập " + varName + ": ");
+        res = sc.nextFloat();
+        String exception = getFloatException(varName, validator, res);
+
+        if (!exception.isEmpty()) {
+            System.out.println(exception + "! Nhập lại " + varName + ".");
+            res = inputFloat(varName, validator);
+        }
+        return res;
     }
 }
