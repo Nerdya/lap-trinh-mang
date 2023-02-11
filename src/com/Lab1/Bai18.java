@@ -1,4 +1,6 @@
-package Lab1;
+package com.Lab1;
+
+import com.SharedMethods;
 
 public class Bai18 {
     static int[][] arr2D;

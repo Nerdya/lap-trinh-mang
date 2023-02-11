@@ -1,4 +1,4 @@
-package Lab1;
+package com;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class SharedMethods {
     Scanner sc = new Scanner(System.in);
 
-    String getIntException(String varName, String validator, int value) {
+    public String getIntException(String varName, String validator, int value) {
         String exception = "";
         switch (validator) {
             case "notZero": {
@@ -37,7 +37,7 @@ public class SharedMethods {
         }
         return exception;
     }
-    int inputInt(String varName, String validator) {
+    public int inputInt(String varName, String validator) {
         int res;
         System.out.print("Nhập " + varName + ": ");
         res = sc.nextInt();
@@ -50,11 +50,11 @@ public class SharedMethods {
         return res;
     }
 
-    int inputInt(String varName) {
+    public int inputInt(String varName) {
         return inputInt(varName, "");
     }
 
-    int sumOfFirstNaturalNumbers(int n) {
+    public int sumOfFirstNaturalNumbers(int n) {
         int res = 0;
         for (int i = 1; i <= n; i++) {
             res += i;
@@ -62,7 +62,7 @@ public class SharedMethods {
         return res;
     }
 
-    boolean checkPrimeNumber(int n) {
+    public boolean checkPrimeNumber(int n) {
         boolean res = true;
         if (n < 2) {
             return false;
@@ -76,7 +76,7 @@ public class SharedMethods {
         return res;
     }
 
-    boolean checkPerfectNumber(int n) {
+    public boolean checkPerfectNumber(int n) {
         int sum = 0;
         for (int i = 1; i <= n / 2; i++) {
             if (n % i == 0) {
@@ -86,7 +86,7 @@ public class SharedMethods {
         return sum == n;
     }
 
-    int gcd(int a, int b)
+    public int gcd(int a, int b)
     {
         if (b == 0) {
             return a;
@@ -94,11 +94,11 @@ public class SharedMethods {
         return gcd(b, a % b);
     }
 
-    int lcm(int a, int b) {
+    public int lcm(int a, int b) {
         return a * b / gcd(a, b);
     }
 
-    int inputIntArrElement(int index, String arrName, String validator) {
+    public int inputIntArrElement(int index, String arrName, String validator) {
         int res;
         String elementName = arrName + "[" + index + "]";
         System.out.print(elementName + ": ");
@@ -112,7 +112,7 @@ public class SharedMethods {
         return res;
     }
 
-    int[] inputIntArray(int size, String arrName, String validator) {
+    public int[] inputIntArray(int size, String arrName, String validator) {
         int[] arr = new int[size];
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < size; i++) {
@@ -121,11 +121,11 @@ public class SharedMethods {
         return arr;
     }
 
-    int[] inputIntArray(int size, String arrName) {
+    public int[] inputIntArray(int size, String arrName) {
         return inputIntArray(size, arrName, "");
     }
 
-    int[] inputIntArrayUntilNthElement(int size, String arrName, String validator, int n) {
+    public int[] inputIntArrayUntilNthElement(int size, String arrName, String validator, int n) {
         int[] arr = new int[size];
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < n; i++) {
@@ -134,7 +134,7 @@ public class SharedMethods {
         return arr;
     }
 
-    ArrayList<Integer> getIndexesOfFindNumberInIntArray(int[] arr, int findValue) {
+    public ArrayList<Integer> getIndexesOfFindNumberInIntArray(int[] arr, int findValue) {
         ArrayList<Integer> indexes = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (findValue == arr[i]) {
@@ -144,21 +144,21 @@ public class SharedMethods {
         return indexes;
     }
 
-    void printIntArray(int[] arr) {
+    public void printIntArray(int[] arr) {
         for (int e : arr) {
             System.out.print(e + " ");
         }
         System.out.println();
     }
 
-    void printIntArrayUntilNElement(int[] arr, int n) {
+    public void printIntArrayUntilNElement(int[] arr, int n) {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
 
-    ArrayList<Integer> inputIntArrayList(int size, String arrName) {
+    public ArrayList<Integer> inputIntArrayList(int size, String arrName) {
         ArrayList<Integer> arrList = new ArrayList<>();
         System.out.println("Nhập các phần tử mảng " + arrName + ":");
         for (int i = 0; i < size; i++) {
@@ -168,16 +168,16 @@ public class SharedMethods {
         return arrList;
     }
 
-    void deleteNumberInIntArrayList(ArrayList<Integer> arrList, int deleteValue) {
+    public void deleteNumberInIntArrayList(ArrayList<Integer> arrList, int deleteValue) {
         arrList.removeAll(Collections.singleton(deleteValue));
     }
 
-    void printIntArrayList(ArrayList<Integer> arrList) {
+    public void printIntArrayList(ArrayList<Integer> arrList) {
         arrList.forEach(element -> System.out.print(element + " "));
         System.out.println();
     }
 
-    void optimizedInsertionSort(int[] arr, SortOrder order) {
+    public void optimizedInsertionSort(int[] arr, SortOrder order) {
         int n = arr.length;
 
         // Find the minimum element
@@ -209,11 +209,11 @@ public class SharedMethods {
         }
     }
 
-    void optimizedInsertionSort(int[] arr) {
+    public void optimizedInsertionSort(int[] arr) {
         optimizedInsertionSort(arr, SortOrder.ASCENDING);
     }
 
-    void insertIntoSortedArray(int[] arr, int value) {
+    public void insertIntoSortedArray(int[] arr, int value) {
         int i;
         for (i = arr.length - 2; i >= 0; i--) {
             if (arr[i] < value) {
@@ -225,14 +225,14 @@ public class SharedMethods {
         arr[i + 1] = value;
     }
 
-    String inputString(String varName) {
+    public String inputString(String varName) {
         String input;
         System.out.print("Nhập " + varName + ": ");
         input = sc.nextLine();
         return input;
     }
 
-    String normalizeString(String input) {
+    public String normalizeString(String input) {
         input = input.trim().toLowerCase();
         String[] words = input.split("\\s+");
         StringBuilder normalized = new StringBuilder();
@@ -243,7 +243,7 @@ public class SharedMethods {
         return normalized.toString().trim();
     }
 
-    int inputIntArr2DElement(int rowIndex, int columnIndex, String arrName, String validator) {
+    public int inputIntArr2DElement(int rowIndex, int columnIndex, String arrName, String validator) {
         int res;
         String elementName = arrName + "[" + rowIndex + "][" + columnIndex + "]";
         System.out.print(elementName + ": ");
@@ -257,7 +257,7 @@ public class SharedMethods {
         return res;
     }
 
-    int[][] inputIntArray2D(int rows, int columns, String arrName, String validator) {
+    public int[][] inputIntArray2D(int rows, int columns, String arrName, String validator) {
         int[][] arr2D = new int[rows][columns];
         System.out.println("Nhập mảng 2 chiều " + arrName + ":");
         for (int i = 0; i < rows; i++) {
@@ -268,11 +268,11 @@ public class SharedMethods {
         return arr2D;
     }
 
-    int[][] inputIntArray2D(int rows, int columns, String arrName) {
+    public int[][] inputIntArray2D(int rows, int columns, String arrName) {
         return inputIntArray2D(rows, columns, arrName, "");
     }
 
-    void printIntArray2D(int[][] arr2D) {
+    public void printIntArray2D(int[][] arr2D) {
         int rows = arr2D.length;
         int columns = arr2D[0].length;
         for (int i = 0; i < rows; i++) {
@@ -283,7 +283,7 @@ public class SharedMethods {
         }
     }
 
-    float getAverageOfRowInIntArray2D(int[][] arr2D, int rowIndex) {
+    public float getAverageOfRowInIntArray2D(int[][] arr2D, int rowIndex) {
         int sum = 0, count = 0;
         int columns = arr2D[rowIndex].length;
         for (int j = 0; j < columns; j++) {

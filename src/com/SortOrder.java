@@ -1,4 +1,4 @@
-package Lab1;
+package com;
 
 public enum SortOrder {
     ASCENDING, DESCENDING

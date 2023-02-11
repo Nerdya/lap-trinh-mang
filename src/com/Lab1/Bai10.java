@@ -1,5 +1,6 @@
-package Lab1;
+package com.Lab1;
 
+import com.SharedMethods;
 import java.util.Arrays;
 
 public class Bai10 {

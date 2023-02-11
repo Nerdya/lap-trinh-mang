@@ -1,4 +1,6 @@
-package Lab1;
+package com.Lab1;
+
+import com.SharedMethods;
 
 public class Bai16 {
     static String str;
