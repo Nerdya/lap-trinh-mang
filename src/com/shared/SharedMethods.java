@@ -330,10 +330,77 @@ public class SharedMethods {
         return res;
     }
 
+    public float inputFloatArrElement(int index, String arrName, String validator) {
+        float res;
+        String elementName = arrName + "[" + index + "]";
+        System.out.print(elementName + ": ");
+        res = sc.nextFloat();
+        String exception = getFloatException(elementName, validator, res);
+
+        if (!exception.isEmpty()) {
+            System.out.println(exception + "! Nhập lại " + elementName + ".");
+            res = inputIntArrElement(index, arrName, validator);
+        }
+        return res;
+    }
+
+    public float[] inputFloatArray(int size, String arrName, String validator) {
+        float[] arr = new float[size];
+        System.out.println("Nhập các phần tử mảng " + arrName + ":");
+        for (int i = 0; i < size; i++) {
+            arr[i] = inputFloatArrElement(i, arrName, validator);
+        }
+        return arr;
+    }
+
+    public float[] inputFloatArray(int size, String arrName) {
+        return inputFloatArray(size, arrName, "");
+    }
+
     public char inputChar(String varName) {
         char input;
         System.out.print("Nhập " + varName + ": ");
         input = sc.nextLine().charAt(0);
         return input;
+    }
+
+    public String getStringException(String varName, String validator, String value) {
+        String exception = "";
+        switch (validator) {
+            case "notNull": {
+                if (value.isEmpty()) {
+                    exception = varName + " = null";
+                }
+                break;
+            }
+        }
+        return exception;
+    }
+
+    public String inputStringArrElement(int index, String arrName, String validator) {
+        String res;
+        String elementName = arrName + "[" + index + "]";
+        System.out.print(elementName + ": ");
+        res = sc.nextLine();
+        String exception = getStringException(elementName, validator, res);
+
+        if (!exception.isEmpty()) {
+            System.out.println(exception + "! Nhập lại " + elementName + ".");
+            res = inputStringArrElement(index, arrName, validator);
+        }
+        return res;
+    }
+
+    public String[] inputStringArr(int size, String arrName, String validator) {
+        String[] arr = new String[size];
+        System.out.println("Nhập các phần tử mảng " + arrName + ":");
+        for (int i = 0; i < size; i++) {
+            arr[i] = inputStringArrElement(i, arrName, validator);
+        }
+        return arr;
+    }
+
+    public String[] inputStringArr(int size, String arrName) {
+        return inputStringArr(size, arrName, "");
     }
 }
