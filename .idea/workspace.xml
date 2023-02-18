@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023toi">
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="com.Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bai1">
+  <component name="RunManager" selected="Application.Bai4">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
       <module name="lap-trinh-mang" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai4" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai3" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab2toi.*" />
+          <option name="PATTERN" value="com.bt18022023toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai5" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai4" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab2toi.*" />
+          <option name="PATTERN" value="com.bt18022023toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai4" />
         <item itemvalue="Application.Bai1" />
+        <item itemvalue="Application.Bai3" />
         <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.com.bt18022023.Bai4" />
-        <item itemvalue="Application.Bai5" />
-        <item itemvalue="Application.Bai4" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676723566683</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="bt18022023toi">
+      <created>1676724403074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676724403074</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

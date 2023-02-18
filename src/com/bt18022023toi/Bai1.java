@@ -1,7 +1,7 @@
 package com.bt18022023toi;
 
 public class Bai1 {
-    static int n = 4;
+    static int n = 10;
 
     static void printPyramid(int n) {
         StringBuilder sbBlank = new StringBuilder();
@@ -16,6 +16,10 @@ public class Bai1 {
     }
 
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
         printPyramid(n);
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+        System.out.println("Elapsed time: " + elapsedTime + " ms");
     }
 }
