@@ -54,7 +54,7 @@ public class Bai4 {
     static void print(String[] fullNames, float[] scores, String[] abilities) {
         int n = fullNames.length;
         for (int i = 0; i < n; i++) {
-            System.out.println("Sinh viên " + (i + 1) + ":");
+            System.out.println("Sinh viên " + i + ":");
             System.out.println("Họ tên: " + fullNames[i]);
             System.out.println("Điểm: " + scores[i]);
             System.out.println("Học lực: " + abilities[i]);
@@ -64,8 +64,9 @@ public class Bai4 {
 
     public static void main(String[] args) {
         n = sm.inputInt("số sinh viên", "positive");
-        fullNames = sm.inputStringArr(n, "họ tên");
-        scores = sm.inputFloatArray(n, "điểm", "0..10");
+        sm.sc.nextLine();
+        fullNames = sm.inputStringArr(n, "Họ tên");
+        scores = sm.inputFloatArray(n, "Điểm", "0..10");
         abilities = getAbilities(scores);
         System.out.println("Danh sách sinh viên:");
         print(fullNames, scores, abilities);

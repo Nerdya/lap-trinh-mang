@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="Lab2">
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab2/ProductMenu.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023">
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676116685343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="bt18022023">
+      <created>1676685909605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676685909605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +279,7 @@
     <MESSAGE value="Lab1" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab2" />
+    <MESSAGE value="bt18022023" />
+    <option name="LAST_COMMIT_MESSAGE" value="bt18022023" />
   </component>
 </project>
