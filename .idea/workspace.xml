@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023">
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023toi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="com.Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bai2">
+  <component name="RunManager" selected="Application.Bai1">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
       <module name="lap-trinh-mang" />
@@ -130,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.Bai1" />
+        <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.com.bt18022023.Bai4" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai4" />
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676685909605</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bt18022023toi">
+      <created>1676723566683</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676723566683</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +287,7 @@
     <MESSAGE value="Refactor" />
     <MESSAGE value="Lab2" />
     <MESSAGE value="bt18022023" />
-    <option name="LAST_COMMIT_MESSAGE" value="bt18022023" />
+    <MESSAGE value="bt18022023toi" />
+    <option name="LAST_COMMIT_MESSAGE" value="bt18022023toi" />
   </component>
 </project>

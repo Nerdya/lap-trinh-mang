@@ -9,8 +9,8 @@ public class Bai1 {
         for (int i = 0; i < n; i++) {
             sbBlank.setLength(0);
             sbStars.setLength(0);
-            sbBlank.append(String.valueOf(' ').repeat(n - i - 1));
-            sbStars.append(String.valueOf('*').repeat(2 * i + 1));
+            sbBlank.append(" ".repeat(2 * n - 2 * i - 2));
+            sbStars.append("* ".repeat(2 * i + 1));
             System.out.println(sbBlank.toString() + sbStars);
         }
     }

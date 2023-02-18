@@ -2,6 +2,8 @@ package com.bt18022023toi;
 
 import com.shared.SharedMethods;
 
+import java.util.Arrays;
+
 public class Bai2 {
     static int n;
     static SharedMethods sm = new SharedMethods();
@@ -33,6 +35,10 @@ public class Bai2 {
         return false;
     }
 
+    static void sapXepHangHoaTheoSoLuongGiamDan(HangHoa[] hh) {
+        Arrays.sort(hh, (a, b) -> (b.getSoLuong() - a.getSoLuong()));
+    }
+
     public static void main(String[] args) {
         n = sm.inputInt("n", "positive");
         HangHoa[] hh = nhapMangHangHoa(n);
@@ -42,5 +48,7 @@ public class Bai2 {
         } else {
             System.out.println("Danh sách các mặt hàng vừa nhập không có mặt hàng \"milk\".");
         }
+        sapXepHangHoaTheoSoLuongGiamDan(hh);
+        inMangHangHoa(hh);
     }
 }

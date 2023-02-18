@@ -15,6 +15,10 @@ public class HangHoa {
         return tenHang;
     }
 
+    public int getSoLuong() {
+        return soLuong;
+    }
+
     static SharedMethods sm = new SharedMethods();
 
     public void nhap() {
