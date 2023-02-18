@@ -45,11 +45,22 @@ public class Bai4 {
         return result;
     }
 
+    static void indexesOfGivenNumberInIntArray(int x, int[] arr) {
+        System.out.println("Vị trí của các số " + x + ":");
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            if (x == arr[i]) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+
     public static void main(String[] args) {
         arr = inputIntArrElementsUntil0();
+        sm.printIntArray(arr);
         System.out.println("Tổng các số vừa nhập: " + sumOfIntArr(arr));
         System.out.println("Số lớn thứ 2 trong dãy vừa nhập: " + arrayMaxSmallerThanKey(arr, arrayMax(arr)));
         x = sm.inputInt("x");
-
+        indexesOfGivenNumberInIntArray(x, arr);
     }
 }
