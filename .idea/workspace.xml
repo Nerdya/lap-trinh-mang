@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023">
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +55,20 @@
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bt18022023toi" />
       <recent name="com.bt18022023" />
       <recent name="com.lab2toi" />
       <recent name="com.Lab2Toi" />
       <recent name="com.Lab2" />
-      <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.bt18022023.Bai4">
-    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai2" />
+  <component name="RunManager" selected="Application.Bai2">
+    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab2toi.*" />
+          <option name="PATTERN" value="com.bt18022023toi.Bai2" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lab2toi.Bai3" />
+    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai2" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab2toi.*" />
+          <option name="PATTERN" value="com.bt18022023toi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai2" />
+        <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.com.bt18022023.Bai4" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai4" />
-        <item itemvalue="Application.Bai3" />
-        <item itemvalue="Application.Bai2" />
       </list>
     </recent_temporary>
   </component>
