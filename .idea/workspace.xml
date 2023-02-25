@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023toi">
-      <change afterPath="$PROJECT_DIR$/src/com/lab4/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab4/Rectangle.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="lab4toi">
+      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/UseCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/UseDate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,30 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/UNETI/Java/lap-trinh-mang&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lab4toi" />
       <recent name="com.lab4" />
       <recent name="com.lab3" />
       <recent name="com.bt18022023toi" />
       <recent name="com.bt18022023" />
-      <recent name="com.lab2toi" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.lab4.Bai1">
@@ -316,6 +318,7 @@
     <MESSAGE value="Lab2" />
     <MESSAGE value="bt18022023" />
     <MESSAGE value="bt18022023toi" />
-    <option name="LAST_COMMIT_MESSAGE" value="bt18022023toi" />
+    <MESSAGE value="lab4toi" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4toi" />
   </component>
 </project>
