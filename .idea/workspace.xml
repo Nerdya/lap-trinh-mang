@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023toi">
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18022023">
+      <change afterPath="$PROJECT_DIR$/src/com/lab3/HangHoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,33 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dia/Study/UNETI/Java/lap-trinh-mang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lab3" />
       <recent name="com.bt18022023toi" />
       <recent name="com.bt18022023" />
       <recent name="com.lab2toi" />
       <recent name="com.Lab2Toi" />
-      <recent name="com.Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bai4">
+  <component name="RunManager" selected="Application.Bai2">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
       <module name="lap-trinh-mang" />
@@ -128,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.Bai4" />
         <item itemvalue="Application.Bai1" />
         <item itemvalue="Application.Bai3" />
-        <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.com.bt18022023.Bai4" />
       </list>
     </recent_temporary>
@@ -149,6 +150,7 @@
       <workItem from="1675676657975" duration="2003000" />
       <workItem from="1675736080218" duration="2245000" />
       <workItem from="1676015830520" duration="4473000" />
+      <workItem from="1677284386732" duration="2147000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>

@@ -19,7 +19,6 @@ public class Bai2 {
     }
 
     static void inMangHangHoa(HangHoa[] hh) {
-        System.out.println("Danh sách các mặt hàng vừa nhập:");
         HangHoa.xuatHeader();
         for (HangHoa hangHoa : hh) {
             hangHoa.xuat();
@@ -42,6 +41,7 @@ public class Bai2 {
     public static void main(String[] args) {
         n = sm.inputInt("n", "positive");
         HangHoa[] hh = nhapMangHangHoa(n);
+        System.out.println("Danh sách các mặt hàng vừa nhập:");
         inMangHangHoa(hh);
         if (isThereMilk(hh)) {
             System.out.println("Danh sách các mặt hàng vừa nhập có mặt hàng \"milk\".");
@@ -49,6 +49,7 @@ public class Bai2 {
             System.out.println("Danh sách các mặt hàng vừa nhập không có mặt hàng \"milk\".");
         }
         sapXepHangHoaTheoSoLuongGiamDan(hh);
+        System.out.println("Danh sách các mặt hàng sắp xếp theo số lượng giảm dần:");
         inMangHangHoa(hh);
     }
 }
