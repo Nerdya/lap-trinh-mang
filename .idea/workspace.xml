@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="lab4toi">
-      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/UseCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab4toi/UseDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab6toi/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lab6toi/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/UNETI/Java/lap-trinh-mang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src/com/lab6toi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\lab6toi" />
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -153,6 +152,7 @@
       <workItem from="1675736080218" duration="2245000" />
       <workItem from="1676015830520" duration="4473000" />
       <workItem from="1677284386732" duration="3826000" />
+      <workItem from="1678193371496" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677288555818</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lab4toi">
+      <created>1677330923037</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677330923037</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
