@@ -1,68 +1,69 @@
 package com.bt14032023toi;
 
 public class QLH {
-    private Integer maHang;
-    private String tenHang;
-    private String xuatXu;
-    private Integer loaiHang;
-    private Integer soLuong;
 
-    public QLH() {
-    }
+  private Integer maHang;
+  private String tenHang;
+  private String xuatXu;
+  private Integer loaiHang;
+  private Integer soLuong;
 
-    public QLH(Integer maHang, String tenHang, String xuatXu, Integer loaiHang, Integer soLuong) {
-        this.maHang = maHang;
-        this.tenHang = tenHang;
-        this.xuatXu = xuatXu;
-        this.loaiHang = loaiHang;
-        this.soLuong = soLuong;
-    }
+  public QLH() {
+  }
 
-    public Integer getMaHang() {
-        return maHang;
-    }
+  public QLH(Integer maHang, String tenHang, String xuatXu, Integer loaiHang, Integer soLuong) {
+    this.maHang = maHang;
+    this.tenHang = tenHang;
+    this.xuatXu = xuatXu;
+    this.loaiHang = loaiHang;
+    this.soLuong = soLuong;
+  }
 
-    public void setMaHang(Integer maHang) {
-        this.maHang = maHang;
-    }
+  public Integer getMaHang() {
+    return maHang;
+  }
 
-    public String getTenHang() {
-        return tenHang;
-    }
+  public void setMaHang(Integer maHang) {
+    this.maHang = maHang;
+  }
 
-    public void setTenHang(String tenHang) {
-        this.tenHang = tenHang;
-    }
+  public String getTenHang() {
+    return tenHang;
+  }
 
-    public String getXuatXu() {
-        return xuatXu;
-    }
+  public void setTenHang(String tenHang) {
+    this.tenHang = tenHang;
+  }
 
-    public void setXuatXu(String xuatXu) {
-        this.xuatXu = xuatXu;
-    }
+  public String getXuatXu() {
+    return xuatXu;
+  }
 
-    public Integer getLoaiHang() {
-        return loaiHang;
-    }
+  public void setXuatXu(String xuatXu) {
+    this.xuatXu = xuatXu;
+  }
 
-    public void setLoaiHang(Integer loaiHang) {
-        this.loaiHang = loaiHang;
-    }
+  public Integer getLoaiHang() {
+    return loaiHang;
+  }
 
-    public Integer getSoLuong() {
-        return soLuong;
-    }
+  public void setLoaiHang(Integer loaiHang) {
+    this.loaiHang = loaiHang;
+  }
 
-    public void setSoLuong(Integer soLuong) {
-        this.soLuong = soLuong;
-    }
+  public Integer getSoLuong() {
+    return soLuong;
+  }
 
-    public void input() {
+  public void setSoLuong(Integer soLuong) {
+    this.soLuong = soLuong;
+  }
 
-    }
+  public void input() {
 
-    public void print() {
+  }
 
-    }
+  public void print() {
+
+  }
 }

@@ -5,9 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="lab4toi">
-      <change afterPath="$PROJECT_DIR$/src/com/lab6toi/Bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lab6toi/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt14032023toi/MAYTINH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt14032023toi/MAYTINH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt14032023toi/QLH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt14032023toi/QLH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt14032023toi/QUANLYMAYTINH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt14032023toi/QUANLYMAYTINH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18022023toi/HangHoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab1/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab1/Bai9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2/ProductMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/ProductMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2/StudentMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2/StudentMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab2toi/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab2toi/Bai5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4toi/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4toi/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4toi/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4toi/UseCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4toi/UseCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab4toi/UseDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab4toi/UseDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab6toi/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab6toi/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab6toi/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab6toi/Bai6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab6toi/HangThucPham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab6toi/HangThucPham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab6toi/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab6toi/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SharedMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shared/SimpleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SimpleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shared/SortOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shared/SortOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +86,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src/com/lab6toi",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Study/UNETI/Java/lap-trinh-mang/src/com/lab6toi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\lab6toi" />

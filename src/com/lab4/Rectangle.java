@@ -3,34 +3,35 @@ package com.lab4;
 import com.shared.SharedMethods;
 
 public class Rectangle {
-    private float a;
-    private float b;
 
-    public Rectangle() {
-    }
+  private float a;
+  private float b;
 
-    public Rectangle(float a, float b) {
-        this.a = a;
-        this.b = b;
-    }
+  public Rectangle() {
+  }
 
-    static SharedMethods sm = new SharedMethods();
+  public Rectangle(float a, float b) {
+    this.a = a;
+    this.b = b;
+  }
 
-    public void input() {
-        a = sm.inputFloat("cạnh a", "positive");
-        b = sm.inputFloat("cạnh b", "positive");
-        sm.sc.nextLine();
-    }
+  static SharedMethods sm = new SharedMethods();
 
-    public void print() {
-        System.out.printf("(%.2f, %.2f)\n", a, b);
-    }
+  public void input() {
+    a = sm.inputFloat("cạnh a", "positive");
+    b = sm.inputFloat("cạnh b", "positive");
+    sm.sc.nextLine();
+  }
 
-    public float getPerimeter() {
-        return (a + b) * 2;
-    }
+  public void print() {
+    System.out.printf("(%.2f, %.2f)\n", a, b);
+  }
 
-    public float getArea() {
-        return a * b;
-    }
+  public float getPerimeter() {
+    return (a + b) * 2;
+  }
+
+  public float getArea() {
+    return a * b;
+  }
 }
