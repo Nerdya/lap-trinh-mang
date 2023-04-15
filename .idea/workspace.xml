@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt08042023">
-      <change afterPath="$PROJECT_DIR$/src/com/bt08042023/UsingManagerStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt08042023/manager/info/ManagerStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt08042023/person/info/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt08042023/student/info/Student.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt11042023toi">
+      <change afterPath="$PROJECT_DIR$/src/com/bt15042023/aptech/IMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt15042023/aptech/StudentAptech.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt15042023/aptech/mark/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt15042023/aptech/mark/StudentMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt15042023/aptech/mark/StudentMarkTotal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +67,7 @@
       <recent name="com.bt18022023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsingManagerStudent">
-    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
-      <module name="lap-trinh-mang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bt18022023toi.Bai2" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuanLyChung">
     <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai2" />
       <module name="lap-trinh-mang" />
@@ -99,6 +87,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bt18022023toi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuanLyChung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt11042023toi.quanlychung.xemay.QuanLyChung" />
+      <module name="lap-trinh-mang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bt11042023toi.quanlychung.xemay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuanLyChung" />
         <item itemvalue="Application.UsingManagerStudent" />
         <item itemvalue="Application.com.lab4.Bai1" />
         <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.Bai4" />
-        <item itemvalue="Application.Bai1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +163,10 @@
       <workItem from="1680485782309" duration="44000" />
       <workItem from="1680509408473" duration="16000" />
       <workItem from="1680914782871" duration="3487000" />
+      <workItem from="1680971427579" duration="52000" />
+      <workItem from="1681091577333" duration="63000" />
+      <workItem from="1681216625444" duration="1191000" />
+      <workItem from="1681518751669" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -310,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679103671791</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bt11042023toi">
+      <created>1681218115816</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681218115817</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +364,7 @@
     <MESSAGE value="lab7" />
     <MESSAGE value="lab8" />
     <MESSAGE value="bt08042023" />
-    <option name="LAST_COMMIT_MESSAGE" value="bt08042023" />
+    <MESSAGE value="bt11042023toi" />
+    <option name="LAST_COMMIT_MESSAGE" value="bt11042023toi" />
   </component>
 </project>
