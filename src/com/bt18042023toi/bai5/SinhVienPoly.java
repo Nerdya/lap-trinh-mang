@@ -1,8 +1,8 @@
 package com.bt18042023toi.bai5;
 
 public abstract class SinhVienPoly {
-  String hoTen;
-  String nganh;
+  public String hoTen;
+  public String nganh;
 
   public SinhVienPoly(String hoTen, String nganh) {
     this.hoTen = hoTen;

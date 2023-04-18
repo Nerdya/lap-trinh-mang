@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18042023toi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/CommissionWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/CommissionWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/PieceWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai4/PieceWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai5/SinhVienPoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai5/SinhVienPoly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/QuanLySinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/QuanLySinhVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,7 @@
       <workItem from="1678193371496" duration="1027000" />
       <workItem from="1679412639152" duration="51000" />
       <workItem from="1680005370650" duration="628000" />
-      <workItem from="1681820349251" duration="1685000" />
+      <workItem from="1681820349251" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -308,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681821282391</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bt18042023toi">
+      <created>1681823051220</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681823051220</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,14 +2,18 @@ package com.bt18042023toi.bai6;
 
 import com.bt18042023toi.bai5.SinhVienPoly;
 
-public class SinhVienBiz extends SinhVienPoly {
+class SinhVienBiz extends SinhVienPoly {
+  private double diemMarketing;
+  private double diemSales;
 
-  public SinhVienBiz(String hoTen, String nganh) {
+  public SinhVienBiz(String hoTen, String nganh, double diemMarketing, double diemSales) {
     super(hoTen, nganh);
+    this.diemMarketing = diemMarketing;
+    this.diemSales = diemSales;
   }
 
   @Override
   public double getDiem() {
-    return 0;
+    return (2 * diemMarketing + diemSales) / 3;
   }
 }
