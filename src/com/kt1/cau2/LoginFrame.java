@@ -21,7 +21,7 @@ public class LoginFrame extends JFrame {
       String username = this.usernameField.getText();
       String password = new String(this.passwordField.getPassword());
       try {
-        if (username.isEmpty()) {
+        if (username.equals("admin") && password.equals("123")) {
           JOptionPane.showMessageDialog(null, "Đăng nhập thành công!");
           setVisible(false);
           SolveTaskFrame solveTaskFrame = new SolveTaskFrame();
