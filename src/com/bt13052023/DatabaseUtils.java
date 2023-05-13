@@ -70,8 +70,8 @@ public class DatabaseUtils {
     }
   }
 
-  public static void deleteLoaiSP(String ma_loai) {
-    String query = "DELETE FROM loai_sp WHERE ma_loai = '" + ma_loai + "'";
+  public static void deleteLoaiSP(String maLoai) {
+    String query = "DELETE FROM loai_sp WHERE ma_loai = '" + maLoai + "'";
 
     try (Connection connection = getConnection();
         Statement statement = connection.createStatement()) {

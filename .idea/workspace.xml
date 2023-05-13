@@ -7,8 +7,6 @@
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt13052023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       <workItem from="1679412639152" duration="51000" />
       <workItem from="1680005370650" duration="628000" />
       <workItem from="1681820349251" duration="1862000" />
-      <workItem from="1683938966501" duration="4721000" />
+      <workItem from="1683938966501" duration="5321000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683942558896</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="bt13052023">
+      <created>1683943806580</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683943806580</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
