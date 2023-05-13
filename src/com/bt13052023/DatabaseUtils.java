@@ -44,24 +44,34 @@ public class DatabaseUtils {
     return loaiSPS;
   }
 
-  public static void updateStudent(String maSinhVien, String hoTen, String gioiTinh, String soDienThoai, int tuoi) {
-    String query = "UPDATE sinhvien SET HoTen = ?, GioiTinh = ?, SoDienThoai = ?, Tuoi = ? WHERE MaSinhVien = ?";
+  public static void addLoaiSP(String maLoai, String tenLoai) {
+    String query = "INSERT INTO loai_sp (ma_loai, ten_loai) VALUES (?, ?)";
 
     try (Connection connection = getConnection();
         PreparedStatement statement = connection.prepareStatement(query)) {
-      statement.setString(1, hoTen);
-      statement.setString(2, gioiTinh);
-      statement.setString(3, soDienThoai);
-      statement.setInt(4, tuoi);
-      statement.setString(5, maSinhVien);
+      statement.setString(1, maLoai);
+      statement.setString(2, tenLoai);
       statement.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();
     }
   }
 
-  public static void deleteStudent(String maSinhVien) {
-    String query = "DELETE FROM sinhvien WHERE MaSinhVien = '" + maSinhVien + "'";
+  public static void updateLoaiSP(String maLoai, String tenLoai) {
+    String query = "UPDATE loai_sp SET ten_loai = ? WHERE ma_loai = ?";
+
+    try (Connection connection = getConnection();
+        PreparedStatement statement = connection.prepareStatement(query)) {
+      statement.setString(1, tenLoai);
+      statement.setString(2, maLoai);
+      statement.executeUpdate();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void deleteLoaiSP(String ma_loai) {
+    String query = "DELETE FROM loai_sp WHERE ma_loai = '" + ma_loai + "'";
 
     try (Connection connection = getConnection();
         Statement statement = connection.createStatement()) {

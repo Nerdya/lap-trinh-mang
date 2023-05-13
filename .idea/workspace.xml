@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt15042023">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/AdminFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/AdminFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/SanPham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29.jar" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt13052023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-trinh-mang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-trinh-mang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt09052023toi/StudentManagerFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt09052023toi/StudentManagerFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +165,7 @@
       <workItem from="1679412639152" duration="51000" />
       <workItem from="1680005370650" duration="628000" />
       <workItem from="1681820349251" duration="1862000" />
-      <workItem from="1683938966501" duration="3498000" />
+      <workItem from="1683938966501" duration="4721000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -332,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681823051220</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="bt13052023">
+      <created>1683942558896</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683942558896</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +370,7 @@
     <MESSAGE value="lab7" />
     <MESSAGE value="lab8" />
     <MESSAGE value="bt18042023toi" />
-    <option name="LAST_COMMIT_MESSAGE" value="bt18042023toi" />
+    <MESSAGE value="bt13052023" />
+    <option name="LAST_COMMIT_MESSAGE" value="bt13052023" />
   </component>
 </project>

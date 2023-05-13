@@ -1,7 +1,5 @@
 package com.bt13052023;
 
-import com.bt13052023.DatabaseUtils;
-import com.bt13052023.Student;
 import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -19,17 +17,16 @@ public class LoaiSPManagerFrame extends JFrame {
   private JPanel mainPanel;
   private JTextField textField1;
   private JTextField textField2;
-  private JButton thêmButton;
-  private JButton xóaButton;
-  private JButton sửaButton;
-  private JButton lưuButton;
-  private JButton kLưuButton;
-  private JButton thoátButton;
+  private JButton addButton;
+  private JButton deleteButton;
+  private JButton updateButton;
+  private JButton exitButton;
   private JTable table1;
 
   public LoaiSPManagerFrame() {
     initFrame();
     initTable();
+    initListeners();
   }
 
   private void initFrame() {
@@ -67,5 +64,62 @@ public class LoaiSPManagerFrame extends JFrame {
 
     // Set the new table model to the table
     table1.setModel(model);
+  }
+
+  private void initListeners() {
+    // Add onClick listener to the updateButton
+    addButton.addActionListener(e -> addLoaiSP());
+
+    // Add onClick listener to the updateButton
+    updateButton.addActionListener(e -> updateLoaiSP());
+
+    // Add onClick listener to the deleteButton
+    deleteButton.addActionListener(e -> deleteLoaiSP());
+
+    // Add onClick listener to the studentTable
+    table1.getSelectionModel().addListSelectionListener(event -> {
+      if (!event.getValueIsAdjusting()) {
+        int selectedRow = table1.getSelectedRow();
+        if (selectedRow != -1) {
+          DefaultTableModel model = (DefaultTableModel) table1.getModel();
+          textField1.setText((String) model.getValueAt(selectedRow, 0));
+          textField2.setText((String) model.getValueAt(selectedRow, 1));
+        }
+      }
+    });
+  }
+
+  private void addLoaiSP() {
+    String maLoai = textField1.getText();
+    String tenLoai = textField2.getText();
+
+    DatabaseUtils.addLoaiSP(maLoai, tenLoai);
+
+    initTable();
+    clearFields();
+  }
+
+  private void updateLoaiSP() {
+    String maLoai = textField1.getText();
+    String tenLoai = textField2.getText();
+
+    DatabaseUtils.updateLoaiSP(maLoai, tenLoai);
+
+    initTable();
+    clearFields();
+  }
+
+  private void deleteLoaiSP() {
+    String maLoai = textField1.getText();
+
+    DatabaseUtils.deleteLoaiSP(maLoai);
+
+    initTable();
+    clearFields();
+  }
+
+  private void clearFields() {
+    textField1.setText("");
+    textField2.setText("");
   }
 }
