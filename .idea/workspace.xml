@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt18042023toi">
-      <change afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai5/SinhVienPoly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai5/SinhVienPoly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/QuanLySinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/QuanLySinhVien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt18042023toi/bai6/SinhVienIT.java" afterDir="false" />
+    <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt15042023">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/AdminFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/AdminFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/LoaiSPManagerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bt13052023/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-trinh-mang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-trinh-mang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bt09052023toi/StudentManagerFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt09052023toi/StudentManagerFrame.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/UNETI/Java/lap-trinh-mang/src/com/lab6toi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src/com/bt09052023toi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\bt09052023toi" />
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\lab6toi" />
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
     </key>
@@ -65,7 +82,7 @@
       <recent name="com.bt18022023" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.lab4.Bai1">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai1" />
       <module name="lap-trinh-mang" />
@@ -92,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai3" />
+    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai4" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bt18022023toi.Bai4" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bt13052023.Main" />
       <module name="lap-trinh-mang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bt18022023toi.*" />
+          <option name="PATTERN" value="com.bt13052023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.lab4.Bai1" />
         <item itemvalue="Application.Bai2" />
         <item itemvalue="Application.Bai4" />
         <item itemvalue="Application.Bai1" />
-        <item itemvalue="Application.Bai3" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +176,7 @@
       <workItem from="1679412639152" duration="51000" />
       <workItem from="1680005370650" duration="628000" />
       <workItem from="1681820349251" duration="1862000" />
+      <workItem from="1683938966501" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
