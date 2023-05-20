@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ddace26-8c56-4887-affc-d80177954a20" name="Changes" comment="bt13052023">
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/AdminFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/AdminFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/DatabaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/EmployeeManagerFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/EmployeeManagerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/EmployeeSearchFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/EmployeeSearchFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/LoginFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kt2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bt13052023/DatabaseUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src/com/bt09052023toi",
+    "last_opened_file_path": "D:/Study/UNETI/Java/lap-trinh-mang/src/com/kt2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,9 +67,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\kt2" />
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com" />
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\bt13052023\ss" />
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\bt13052023" />
       <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\bt09052023toi" />
-      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\lab6toi" />
-      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\UNETI\Java\lap-trinh-mang\src\com\bt13052023" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lab4toi" />
@@ -163,7 +178,10 @@
       <workItem from="1679412639152" duration="51000" />
       <workItem from="1680005370650" duration="628000" />
       <workItem from="1681820349251" duration="1862000" />
-      <workItem from="1683938966501" duration="5321000" />
+      <workItem from="1683938966501" duration="5716000" />
+      <workItem from="1684138997353" duration="3734000" />
+      <workItem from="1684219035888" duration="370000" />
+      <workItem from="1684546360215" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675469751939</created>
@@ -333,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683943806580</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="bt13052023">
+      <created>1683944586295</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683944586295</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
